@@ -8,7 +8,7 @@ filename = "model.h5"
 model = pickle.load(open(filename, "rb"))
 
 sex_d = {0: "Kobieta", 1: "Mężczyzna"}
-pclass_d ={0: "Pierwsza", 1: "Druga"}
+pclass_d ={0: "Pierwsza", 1: "Druga", 2: "Trzecia"}
 embarked_d = {0: "Cherbourg", 1: "Queenstown",2: "Southamption"}
 
 def main():
